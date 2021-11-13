@@ -1,0 +1,19 @@
+﻿<Window x:Class="uppgift13.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:uppgift13"
+        mc:Ignorable="d"
+        Title="Bokstavssök" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtInput" HorizontalAlignment="Left" Margin="58,69,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="229" Height="148" AcceptsReturn="True" VerticalScrollBarVisibility="Auto"/>
+        <Label Content="Sök efter" HorizontalAlignment="Left" Margin="58,242,0,0" VerticalAlignment="Top"/>
+        <Label Content="Resultat" HorizontalAlignment="Left" Margin="172,255,0,0" VerticalAlignment="Top" Width="67" Height="24"/>
+        <Label x:Name="lblResult" Content="" HorizontalAlignment="Left" Margin="172,291,0,0" VerticalAlignment="Top" Width="192"/>
+        <TextBox x:Name="txtChar" HorizontalAlignment="Left" Margin="58,273,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="63"/>
+        <Button Content="Räkna" HorizontalAlignment="Left" Margin="58,304,0,0" VerticalAlignment="Top" Width="63" Click="Button_Click"/>
+        <Label Content="Fyll i text" HorizontalAlignment="Left" Margin="58,38,0,0" VerticalAlignment="Top" Width="63"/>
+
+    </Grid>
+</Window>

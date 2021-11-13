@@ -1,0 +1,21 @@
+﻿<Window x:Class="uppgift8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:uppgift8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtGal" HorizontalAlignment="Left" Margin="80,157,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtSik" HorizontalAlignment="Left" Margin="80,217,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtKnu" HorizontalAlignment="Left" Margin="80,281,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtSek" HorizontalAlignment="Left" Margin="156,327,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="66"/>
+        <Label Content="Mugglarpengar" HorizontalAlignment="Left" Margin="80,82,0,0" VerticalAlignment="Top" FontFamily="Calibri" FontSize="24" FontWeight="Normal"/>
+        <Label Content="Galleoner" HorizontalAlignment="Left" Margin="80,126,0,0" VerticalAlignment="Top"/>
+        <Label Content="Siklar" HorizontalAlignment="Left" Margin="80,191,0,0" VerticalAlignment="Top"/>
+        <Label Content="Knutar" HorizontalAlignment="Left" Margin="80,250,0,0" VerticalAlignment="Top"/>
+        <Button Content="Konvertera" HorizontalAlignment="Left" Margin="80,325,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+
+    </Grid>
+</Window>

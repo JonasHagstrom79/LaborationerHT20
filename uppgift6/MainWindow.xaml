@@ -1,0 +1,22 @@
+﻿<Window x:Class="uppgift6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:uppgift6"
+        mc:Ignorable="d"
+        Title="Miniräknare" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="multi" Content="*" HorizontalAlignment="Left" Margin="442,185,0,0" VerticalAlignment="Top" Height="43" Width="39" Click="multi_Click"/>
+        <Button x:Name="divi" Content="/" HorizontalAlignment="Left" Margin="501,185,0,0" VerticalAlignment="Top" Height="43" RenderTransformOrigin="0.652,-0.23" Width="39" Click="divi_Click"/>
+        <Button x:Name="sub"  Content="-" HorizontalAlignment="Center" Margin="0,185,0,0" VerticalAlignment="Top" Height="43" RenderTransformOrigin="-0.986,0.568" Width="40" Click="sub_Click"/>
+        <Button x:Name="add" Content="+" HorizontalAlignment="Left" Margin="325,186,0,0" VerticalAlignment="Top" Height="43" Width="38" Click="add_Click"/>
+        <Label Content="tal 2" HorizontalAlignment="Left" Margin="442,88,0,0" VerticalAlignment="Top"/>
+        <Label Content="tal 1" HorizontalAlignment="Left" Margin="325,88,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="txtShow" Content="Resultat" HorizontalAlignment="Left" Margin="327,260,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtTotal" HorizontalAlignment="Left" Margin="327,291,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtNumTwoo" HorizontalAlignment="Left" Margin="442,124,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="78" RenderTransformOrigin="0,-7.538" Height="28"/>
+        <TextBox x:Name="txtNumOne" HorizontalAlignment="Left" Margin="327,124,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="93" Height="28"/>
+        <Button x:Name="clear" Content="Rensa" HorizontalAlignment="Left" Margin="482,285,0,0" VerticalAlignment="Top" Click="clear_Click"/>
+    </Grid>
+</Window>
